@@ -1,142 +1,97 @@
 <div align="center">
 
-<!-- Header Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Hey%2C%20I%27m%20Suhyun%20👋&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=38&desc=Full-Stack%20Developer%20%7C%20TypeScript%20Enthusiast&descAlignY=58&descSize=20" />
+<h1>Suhyun Park</h1>
+<p><b>Full-Stack Developer</b> &nbsp;·&nbsp; TypeScript-first &nbsp;·&nbsp; Building scalable web services</p>
 
-<!-- Typing Animation -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=6AD3F7&center=true&vCenter=true&width=600&lines=Full-Stack+Developer+%F0%9F%9A%80;TypeScript+%2B+React+%2F+Next.js+%2F+Vue;Node+%2F+Spring+%2F+Flask+%2F+Actix+Web;Building+scalable+%26+elegant+solutions" alt="Typing SVG" />
+<img src="https://komarev.com/ghpvc/?username=psh-suhyun&style=flat-square&color=4A90D9&label=Profile+Views" />
+&nbsp;
+<img src="https://img.shields.io/github/followers/psh-suhyun?style=flat-square&color=4A90D9&labelColor=1a1a2e&label=Followers" />
+
+</div>
+
+---
+
+### About
+
+Full-stack developer with hands-on experience across the entire web development lifecycle — from crafting responsive UIs to designing RESTful APIs and managing relational and non-relational databases.
+
+Primarily write **TypeScript**, work comfortably across multiple frameworks and runtimes, and care deeply about code maintainability, performance, and developer experience.
+
+---
+
+### Tech Stack
+
+**Languages**
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+
+**Frontend**
+
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vue.js&logoColor=white)
+
+**Frontend / Library & Styling**
+
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![React Query](https://img.shields.io/badge/React%20Query-FF4154?style=flat-square&logo=reactquery&logoColor=white)
+![React Router](https://img.shields.io/badge/React%20Router-CA4245?style=flat-square&logo=reactrouter&logoColor=white)
+![Axios](https://img.shields.io/badge/Axios-5A29E4?style=flat-square&logo=axios&logoColor=white)
+
+**Backend**
+
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![Actix Web](https://img.shields.io/badge/Actix%20Web-000000?style=flat-square&logo=rust&logoColor=white)
+
+**Database**
+
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=mariadb&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+
+**DevOps & Infra**
+
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
+**Design**
+
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
+
+**IDE**
+
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
+![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=flat-square&logo=intellijidea&logoColor=white)
+
+---
+
+### GitHub Stats
+
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=psh-suhyun&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&hide_border=true&hide_title=true" />
+&nbsp;
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=psh-suhyun&layout=compact&langs_count=6&theme=github_dark&hide_border=true&hide_title=true" />
 
 <br/>
 
-<!-- Profile Views & Followers -->
-<img src="https://komarev.com/ghpvc/?username=psh-suhyun&style=for-the-badge&color=0e75b6" alt="Profile Views" />
-<img src="https://img.shields.io/github/followers/psh-suhyun?style=for-the-badge&color=0e75b6&labelColor=1a1a2e" alt="Followers" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=psh-suhyun&theme=github-dark-blue&hide_border=true" />
 
 </div>
 
 ---
 
-## 🧑‍💻 About Me
-
-```typescript
-const suhyun = {
-  role: "Full-Stack Developer",
-  primaryLanguage: "TypeScript",
-  focus: ["Scalable Architecture", "Clean Code", "DX Improvement"],
-  frontend: ["React", "Next.js", "Vue.js", "Tailwind CSS"],
-  backend: ["Node.js / Express", "Java Spring", "Flask", "Actix Web (Rust)"],
-  database: ["MySQL", "PostgreSQL", "MariaDB", "MongoDB", "Redis"],
-  currentlyLearning: "System Design & Cloud Architecture",
-  funFact: "I think in components, breathe in APIs 🌐",
-};
-```
-
----
-
-## 🛠️ Tech Stack
-
-<div align="center">
-
-### Languages
-<img src="https://img.shields.io/badge/TypeScript-%233178C6.svg?&style=for-the-badge&logo=typescript&logoColor=white" />
-<img src="https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?&style=for-the-badge&logo=javascript&logoColor=black" />
-<img src="https://img.shields.io/badge/Java-%23ED8B00.svg?&style=for-the-badge&logo=openjdk&logoColor=white" />
-<img src="https://img.shields.io/badge/Python-%233776AB.svg?&style=for-the-badge&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/Rust-%23000000.svg?&style=for-the-badge&logo=rust&logoColor=white" />
-<img src="https://img.shields.io/badge/HTML5-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white" />
-<img src="https://img.shields.io/badge/CSS3-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white" />
-
-### Frontend
-<img src="https://img.shields.io/badge/React-%2361DAFB.svg?&style=for-the-badge&logo=react&logoColor=black" />
-<img src="https://img.shields.io/badge/Next.js-%23000000.svg?&style=for-the-badge&logo=next.js&logoColor=white" />
-<img src="https://img.shields.io/badge/Vue.js-%234FC08D.svg?&style=for-the-badge&logo=vue.js&logoColor=white" />
-<img src="https://img.shields.io/badge/Tailwind%20CSS-%2306B6D4.svg?&style=for-the-badge&logo=tailwindcss&logoColor=white" />
-<img src="https://img.shields.io/badge/React%20Query-%23FF4154.svg?&style=for-the-badge&logo=reactquery&logoColor=white" />
-<img src="https://img.shields.io/badge/React%20Router-%23CA4245.svg?&style=for-the-badge&logo=reactrouter&logoColor=white" />
-<img src="https://img.shields.io/badge/Axios-%235A29E4.svg?&style=for-the-badge&logo=axios&logoColor=white" />
-
-### Backend
-<img src="https://img.shields.io/badge/Node.js-%23339933.svg?&style=for-the-badge&logo=node.js&logoColor=white" />
-<img src="https://img.shields.io/badge/Express-%23000000.svg?&style=for-the-badge&logo=express&logoColor=white" />
-<img src="https://img.shields.io/badge/Spring-%236DB33F.svg?&style=for-the-badge&logo=spring&logoColor=white" />
-<img src="https://img.shields.io/badge/Spring%20Boot-%236DB33F.svg?&style=for-the-badge&logo=springboot&logoColor=white" />
-<img src="https://img.shields.io/badge/Flask-%23000000.svg?&style=for-the-badge&logo=flask&logoColor=white" />
-<img src="https://img.shields.io/badge/Actix%20Web-%23000000.svg?&style=for-the-badge&logo=rust&logoColor=white" />
-
-### Database
-<img src="https://img.shields.io/badge/MySQL-%234479A1.svg?&style=for-the-badge&logo=mysql&logoColor=white" />
-<img src="https://img.shields.io/badge/PostgreSQL-%234169E1.svg?&style=for-the-badge&logo=postgresql&logoColor=white" />
-<img src="https://img.shields.io/badge/MariaDB-%23003545.svg?&style=for-the-badge&logo=mariadb&logoColor=white" />
-<img src="https://img.shields.io/badge/MongoDB-%2347A248.svg?&style=for-the-badge&logo=mongodb&logoColor=white" />
-<img src="https://img.shields.io/badge/Redis-%23DC382D.svg?&style=for-the-badge&logo=redis&logoColor=white" />
-<img src="https://img.shields.io/badge/Supabase-%233ECF8E.svg?&style=for-the-badge&logo=supabase&logoColor=white" />
-<img src="https://img.shields.io/badge/Firebase-%23FFCA28.svg?&style=for-the-badge&logo=firebase&logoColor=black" />
-
-### Tools & Infra
-<img src="https://img.shields.io/badge/Git-%23F05032.svg?&style=for-the-badge&logo=git&logoColor=white" />
-<img src="https://img.shields.io/badge/GitHub-%23181717.svg?&style=for-the-badge&logo=github&logoColor=white" />
-<img src="https://img.shields.io/badge/Docker-%232496ED.svg?&style=for-the-badge&logo=docker&logoColor=white" />
-<img src="https://img.shields.io/badge/Figma-%23F24E1E.svg?&style=for-the-badge&logo=figma&logoColor=white" />
-<img src="https://img.shields.io/badge/Notion-%23000000.svg?&style=for-the-badge&logo=notion&logoColor=white" />
-
-### IDE
-<img src="https://img.shields.io/badge/VS%20Code-%23007ACC.svg?&style=for-the-badge&logo=visualstudiocode&logoColor=white" />
-<img src="https://img.shields.io/badge/IntelliJ%20IDEA-%23000000.svg?&style=for-the-badge&logo=intellijidea&logoColor=white" />
-<img src="https://img.shields.io/badge/Cursor-%23000000.svg?&style=for-the-badge&logo=cursor&logoColor=white" />
-
-</div>
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=psh-suhyun&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=psh-suhyun&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0d1117" />
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=psh-suhyun&theme=tokyonight&hide_border=true&background=0d1117&stroke=0d1117&ring=6AD3F7&fire=FF6B6B&currStreakLabel=6AD3F7" />
-
-</div>
-
----
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=psh-suhyun&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&column=7" />
-
-</div>
-
----
-
-## 📈 Contribution Graph
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=psh-suhyun&theme=tokyo-night&bg_color=0d1117&color=6AD3F7&line=6AD3F7&point=FFFFFF&hide_border=true" />
-
-</div>
-
----
-
-## 📬 Contact
-
-<div align="center">
+### Contact
 
 <a href="mailto:23s607h0659@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-23s607h0659%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  <img src="https://img.shields.io/badge/23s607h0659%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" />
 </a>
-
-</div>
-
-<br/>
-
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" />
-</div>
