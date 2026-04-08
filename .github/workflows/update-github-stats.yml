@@ -34,7 +34,7 @@ jobs:
         uses: soulteary/github-readme-stats-action@v1.0.0
         with:
           card: stats
-          options: "username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&hide_title=true&card_width=494&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=79c0ff&border_color=30363d"
+          options: "username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&count_private=true&hide_rank=true&hide_border=true&hide_title=true&card_width=494&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=79c0ff&border_color=30363d"
           path: assets/github-stats/stats.svg
           token: ${{ secrets.STATS_PAT || secrets.GITHUB_TOKEN }}
 
@@ -78,8 +78,9 @@ jobs:
               echo "## GitHub stats workflow"
               echo "커밋할 변경이 없습니다. 생성된 SVG가 **이미 저장소와 동일**합니다."
               echo ""
-              echo "- \`STATS_PAT\` 없이 돌리면 공개 데이터만 반영됩니다."
-              echo "- 상단 카드 **Total Commits** 와 Streak **Total Contributions** 는 서로 다른 지표입니다 (전체 커밋 vs 기여 그래프 일수)."
+              echo "- \`STATS_PAT\` 없이 돌리면 stats/top-langs 카드는 공개 데이터만 반영됩니다."
+              echo "- Streak **Total Contributions** 는 프로필 **기여 그래프**와 같은 규칙입니다. 비공개는 GitHub 설정에서 비공개 기여 표시를 켠 뒤 반영까지 최대 하루 걸릴 수 있습니다."
+              echo "- 상단 **Total Commits** 와 Streak 숫자는 지표 정의가 다릅니다."
               echo "- Streak는 \`streak.svg\`로 커밋되므로 데이터가 바뀌면 새 커밋이 생깁니다. 프로필에 반영까지 수 분 걸릴 수 있습니다."
             } >> "$GITHUB_STEP_SUMMARY"
             exit 0

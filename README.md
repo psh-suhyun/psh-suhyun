@@ -4,7 +4,7 @@
 <p><b>Full-Stack Developer</b> &nbsp;·&nbsp; TypeScript-first &nbsp;·&nbsp; Building scalable web services</p>
 
 <p>
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&duration=3500&pause=700&color=58A6FF&center=true&vCenter=true&multiline=false&width=520&height=60&lines=Hello%2C+World+%F0%9F%91%8B;TypeScript+%E2%80%A2+Next.Js+%E2%80%A2+Node.js;Ship+things+that+last" alt="Typing introduction" />
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&duration=3500&pause=700&color=58A6FF&center=true&vCenter=true&multiline=false&width=520&height=60&lines=Hello%2C+World+%F0%9F%91%8B;TypeScript+%E2%80%A2+Next.Js+%E2%80%A2+Node.js;" alt="Typing introduction" />
 </p>
 
 <p>
@@ -18,7 +18,6 @@
 </p>
 
 <p>
-  <sub>Stack snapshot</sub><br />
   <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,vue,nodejs,go,py,rust,docker,git,mysql,redis,spring,figma&perline=8" alt="Skill icons" />
 </p>
 
@@ -92,8 +91,10 @@ Primarily write **TypeScript**, work comfortably across multiple frameworks and 
 
 ### GitHub Stats
 
-<!-- 통계·Streak SVG는 `.github/workflows/update-github-stats.yml`로 갱신. 비공개 반영은 Secret `STATS_PAT`. -->
+<!-- SVG: `.github/workflows/update-github-stats.yml` -->
 <div align="center">
+
+<p><sub>비공개 기여: GitHub <b>Settings → Profile → Contributions</b>에서 <i>Show private contributions on my profile</i> 켜기 (streak·초록 그래프). 상단 카드·언어 비공개 반영은 이 저장소 <b>Actions secrets → <code>STATS_PAT</code></b> (Classic: <code>repo</code>, <code>read:user</code>). 등급 링은 표시하지 않음.</sub></p>
 
 <table>
   <tr>
