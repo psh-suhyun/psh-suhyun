@@ -94,8 +94,6 @@ Primarily write **TypeScript**, work comfortably across multiple frameworks and 
 <!-- SVG: `.github/workflows/update-github-stats.yml` -->
 <div align="center">
 
-<p><sub>비공개 기여: GitHub <b>Settings → Profile → Contributions</b>에서 <i>Show private contributions on my profile</i> 켜기 (streak·초록 그래프). 상단 카드·언어 비공개 반영은 이 저장소 <b>Actions secrets → <code>STATS_PAT</code></b> (Classic: <code>repo</code>, <code>read:user</code>). 등급 링은 표시하지 않음.</sub></p>
-
 <table>
   <tr>
     <td align="center" valign="top">
