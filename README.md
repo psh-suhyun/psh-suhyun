@@ -77,15 +77,19 @@ Primarily write **TypeScript**, work comfortably across multiple frameworks and 
 
 ### GitHub Stats
 
+These cards call `readme-stats-github.vercel.app` because the default `github-readme-stats.vercel.app` instance is often paused ([upstream issue](https://github.com/anuraghazra/github-readme-stats/issues/4780)). **`count_private=true`** only counts private commits if you [self-host](https://github.com/anuraghazra/github-readme-stats/blob/master/readme.md#deploy-on-your-own) and set `PAT_1` (never put a token in this README).
+
+To show private activity on your **GitHub profile graph**: [Profile settings](https://github.com/settings/profile) → **Contributions** → **Include private contributions on my profile**.
+
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=psh-suhyun&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&hide_border=true&hide_title=true" />
+<img height="165" alt="GitHub stats" src="https://readme-stats-github.vercel.app/api?username=psh-suhyun&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&hide_border=true&hide_title=true" />
 &nbsp;
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=psh-suhyun&layout=compact&langs_count=6&theme=github_dark&hide_border=true&hide_title=true" />
+<img height="165" alt="Top languages" src="https://readme-stats-github.vercel.app/api/top-langs/?username=psh-suhyun&layout=compact&langs_count=6&theme=github_dark&hide_border=true&hide_title=true" />
 
 <br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=psh-suhyun&theme=github-dark-blue&hide_border=true" />
+<img alt="GitHub streak" src="https://streak-stats.demolab.com/?user=psh-suhyun&theme=github-dark-blue&hide_border=true" />
 
 </div>
 
