@@ -7,6 +7,11 @@ on:
   schedule:
     - cron: "0 3 * * *"
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - "assets/github-stats/**"
 
 permissions:
   contents: write
@@ -44,6 +49,24 @@ jobs:
       - name: Strip stray "undefined" text from SVG (upstream quirk)
         run: perl -i -0777 -pe 's/\n\s*undefined\s*\n/\n/g' assets/github-stats/stats.svg assets/github-stats/top-langs.svg
 
+      - name: Fetch streak card (commit to repo → GitHub 캐시보다 외부 이미지 직링크가 덜 꼬임)
+        env:
+          STREAK_QUERY: theme=github-dark-blue&hide_border=true&background=0D1117&stroke=30363D&ring=58A6FF&fire=58A6FF&currStreakNum=C9D1D9&sideNums=58A6FF&sideLabels=C9D1D9&currStreakLabel=C9D1D9&dates=8B949E&card_width=1000&card_height=220&border_radius=6
+        run: |
+          curl -fsSL "https://streak-stats.demolab.com/?user=${{ github.repository_owner }}&${STREAK_QUERY}" -o assets/github-stats/streak.svg
+
+      - name: Prefer system fonts in SVGs (GitHub 렌더에서 글자 깨짐 완화)
+        run: |
+          for f in assets/github-stats/*.svg; do
+            [ -f "$f" ] || continue
+            sed -i \
+              -e "s/'Segoe UI', Ubuntu, Sans-Serif/ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif/g" \
+              -e 's/"Segoe UI", Ubuntu, "Helvetica Neue", Sans-Serif/ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif/g' \
+              -e "s/'Segoe UI', Ubuntu, \"Helvetica Neue\", Sans-Serif/ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif/g" \
+              -e "s/font-family='\"Segoe UI\", Ubuntu, sans-serif'/font-family='ui-sans-serif, system-ui, sans-serif'/g" \
+              "$f"
+          done
+
       - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
@@ -57,6 +80,7 @@ jobs:
               echo ""
               echo "- \`STATS_PAT\` 없이 돌리면 공개 데이터만 반영됩니다."
               echo "- 상단 카드 **Total Commits** 와 Streak **Total Contributions** 는 서로 다른 지표입니다 (전체 커밋 vs 기여 그래프 일수)."
+              echo "- Streak는 \`streak.svg\`로 커밋되므로 데이터가 바뀌면 새 커밋이 생깁니다. 프로필에 반영까지 수 분 걸릴 수 있습니다."
             } >> "$GITHUB_STEP_SUMMARY"
             exit 0
           fi

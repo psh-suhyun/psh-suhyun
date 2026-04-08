@@ -3,9 +3,24 @@
 <h1>Suhyun Park</h1>
 <p><b>Full-Stack Developer</b> &nbsp;·&nbsp; TypeScript-first &nbsp;·&nbsp; Building scalable web services</p>
 
-<img src="https://komarev.com/ghpvc/?username=psh-suhyun&style=flat-square&color=4A90D9&label=Profile+Views" />
-&nbsp;
-<img src="https://img.shields.io/github/followers/psh-suhyun?style=flat-square&color=4A90D9&labelColor=1a1a2e&label=Followers" />
+<p>
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&duration=3500&pause=700&color=58A6FF&center=true&vCenter=true&multiline=false&width=520&height=60&lines=Hello%2C+World+%F0%9F%91%8B;TypeScript+%E2%80%A2+React+%E2%80%A2+Node.js;Ship+things+that+last" alt="Typing introduction" />
+</p>
+
+<p>
+  <img src="https://komarev.com/ghpvc/?username=psh-suhyun&style=flat-square&color=4A90D9&label=Profile+Views" />
+  &nbsp;
+  <img src="https://img.shields.io/github/followers/psh-suhyun?style=flat-square&color=4A90D9&labelColor=1a1a2e&label=Followers" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fpsh-suhyun&query=%24.public_repos&label=public%20repos&logo=github&style=flat-square&color=4A90D9&labelColor=1a1a2e" alt="Public repositories count" />
+  &nbsp;
+  <img src="https://img.shields.io/github/last-commit/psh-suhyun/psh-suhyun?style=flat-square&color=4A90D9&labelColor=1a1a2e&logo=github&label=profile%20repo" alt="Last commit to profile README repo" />
+</p>
+
+<p>
+  <sub>Stack snapshot</sub><br />
+  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,vue,nodejs,go,py,rust,docker,git,mysql,redis,spring,figma&perline=8" alt="Skill icons" />
+</p>
 
 </div>
 
@@ -77,7 +92,7 @@ Primarily write **TypeScript**, work comfortably across multiple frameworks and 
 
 ### GitHub Stats
 
-<!-- 통계 SVG는 `.github/workflows/update-github-stats.yml`로 갱신. 비공개 반영은 Secret `STATS_PAT`. Streak는 demolab(공개 그래프 기준). -->
+<!-- 통계·Streak SVG는 `.github/workflows/update-github-stats.yml`로 갱신. 비공개 반영은 Secret `STATS_PAT`. -->
 <div align="center">
 
 <table>
@@ -91,7 +106,7 @@ Primarily write **TypeScript**, work comfortably across multiple frameworks and 
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <img width="1000" src="https://streak-stats.demolab.com/?user=psh-suhyun&theme=github-dark-blue&hide_border=true&background=0D1117&stroke=30363D&ring=58A6FF&fire=58A6FF&currStreakNum=C9D1D9&sideNums=58A6FF&sideLabels=C9D1D9&currStreakLabel=C9D1D9&dates=8B949E&card_width=1000&card_height=220&border_radius=6" alt="GitHub streak" />
+      <img width="1000" src="./assets/github-stats/streak.svg" alt="GitHub streak" />
     </td>
   </tr>
 </table>
