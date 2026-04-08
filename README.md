@@ -77,15 +77,16 @@ Primarily write **TypeScript**, work comfortably across multiple frameworks and 
 
 ### GitHub Stats
 
+<!-- 통계 SVG는 `.github/workflows/update-github-stats.yml`로 갱신. 비공개 커밋 포함은 저장소 Secret `STATS_PAT` 필요 -->
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=psh-suhyun&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&hide_border=true&hide_title=true" />
+<img height="165" src="./assets/github-stats/stats.svg" alt="GitHub stats" />
 &nbsp;
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=psh-suhyun&layout=compact&langs_count=6&theme=github_dark&hide_border=true&hide_title=true" />
+<img height="165" src="./assets/github-stats/top-langs.svg" alt="Top languages" />
 
 <br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=psh-suhyun&theme=github-dark-blue&hide_border=true" />
+<img src="https://streak-stats.demolab.com/?user=psh-suhyun&theme=github-dark-blue&hide_border=true" />
 
 </div>
 
