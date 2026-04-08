@@ -1,5 +1,6 @@
 # 비공개 커밋을 카드에 반영하려면 저장소 Secrets에 STATS_PAT 추가
 # (Classic PAT: repo + read:user 권한 권장). 없으면 GITHUB_TOKEN으로 공개 데이터만 반영됩니다.
+# SVG가 이전 실행과 바이트 단위로 동일하면 커밋이 생기지 않습니다(정상).
 name: Update GitHub stats SVGs
 
 on:
@@ -14,17 +15,21 @@ concurrency:
   group: update-github-stats
   cancel-in-progress: true
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
+      # theme=github_dark 는 Go CLI에서 기대와 다를 수 있어 GitHub 다크 팔레트를 명시
       - name: Generate stats card
         uses: soulteary/github-readme-stats-action@v1.0.0
         with:
           card: stats
-          options: "username=${{ github.repository_owner }}&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&hide_border=true&hide_title=true"
+          options: "username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&hide_title=true&card_width=494&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=79c0ff&border_color=30363d"
           path: assets/github-stats/stats.svg
           token: ${{ secrets.STATS_PAT || secrets.GITHUB_TOKEN }}
 
@@ -32,9 +37,12 @@ jobs:
         uses: soulteary/github-readme-stats-action@v1.0.0
         with:
           card: top-langs
-          options: "username=${{ github.repository_owner }}&layout=compact&langs_count=6&theme=github_dark&hide_border=true&hide_title=true"
+          options: "username=${{ github.repository_owner }}&layout=compact&langs_count=6&hide_border=true&hide_title=true&card_width=494&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=79c0ff&border_color=30363d"
           path: assets/github-stats/top-langs.svg
           token: ${{ secrets.STATS_PAT || secrets.GITHUB_TOKEN }}
+
+      - name: Strip stray "undefined" text from SVG (upstream quirk)
+        run: perl -i -0777 -pe 's/\n\s*undefined\s*\n/\n/g' assets/github-stats/stats.svg assets/github-stats/top-langs.svg
 
       - name: Commit and push
         run: |
@@ -42,7 +50,14 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add assets/github-stats/*.svg
           if git diff --staged --quiet; then
-            echo "No SVG changes."
+            echo "No SVG changes — output identical to main (token/데이터가 같으면 정상입니다)."
+            {
+              echo "## GitHub stats workflow"
+              echo "커밋할 변경이 없습니다. 생성된 SVG가 **이미 저장소와 동일**합니다."
+              echo ""
+              echo "- \`STATS_PAT\` 없이 돌리면 공개 데이터만 반영됩니다."
+              echo "- 상단 카드 **Total Commits** 와 Streak **Total Contributions** 는 서로 다른 지표입니다 (전체 커밋 vs 기여 그래프 일수)."
+            } >> "$GITHUB_STEP_SUMMARY"
             exit 0
           fi
           git commit -m "chore: update GitHub stats SVGs"

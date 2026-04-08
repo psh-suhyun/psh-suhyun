@@ -77,16 +77,24 @@ Primarily write **TypeScript**, work comfortably across multiple frameworks and 
 
 ### GitHub Stats
 
-<!-- 통계 SVG는 `.github/workflows/update-github-stats.yml`로 갱신. 비공개 커밋 포함은 저장소 Secret `STATS_PAT` 필요 -->
+<!-- 통계 SVG는 `.github/workflows/update-github-stats.yml`로 갱신. 비공개 반영은 Secret `STATS_PAT`. Streak는 demolab(공개 그래프 기준). -->
 <div align="center">
 
-<img height="165" src="./assets/github-stats/stats.svg" alt="GitHub stats" />
-&nbsp;
-<img height="165" src="./assets/github-stats/top-langs.svg" alt="Top languages" />
-
-<br/>
-
-<img src="https://streak-stats.demolab.com/?user=psh-suhyun&theme=github-dark-blue&hide_border=true" />
+<table>
+  <tr>
+    <td align="center" valign="top">
+      <img width="494" src="./assets/github-stats/stats.svg" alt="GitHub stats" />
+    </td>
+    <td align="center" valign="top">
+      <img width="494" src="./assets/github-stats/top-langs.svg" alt="Top languages" />
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <img width="1000" src="https://streak-stats.demolab.com/?user=psh-suhyun&theme=github-dark-blue&hide_border=true&background=0D1117&stroke=30363D&ring=58A6FF&fire=58A6FF&currStreakNum=C9D1D9&sideNums=58A6FF&sideLabels=C9D1D9&currStreakLabel=C9D1D9&dates=8B949E&card_width=1000&card_height=220&border_radius=6" alt="GitHub streak" />
+    </td>
+  </tr>
+</table>
 
 </div>
 
