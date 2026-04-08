@@ -4,7 +4,7 @@
 <p><b>Full-Stack Developer</b> &nbsp;·&nbsp; TypeScript-first &nbsp;·&nbsp; Building scalable web services</p>
 
 <p>
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&duration=3500&pause=700&color=58A6FF&center=true&vCenter=true&multiline=false&width=520&height=60&lines=Hello%2C+World+%F0%9F%91%8B;TypeScript+%E2%80%A2+React+%E2%80%A2+Node.js;Ship+things+that+last" alt="Typing introduction" />
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&duration=3500&pause=700&color=58A6FF&center=true&vCenter=true&multiline=false&width=520&height=60&lines=Hello%2C+World+%F0%9F%91%8B;TypeScript+%E2%80%A2+Next.Js+%E2%80%A2+Node.js;Ship+things+that+last" alt="Typing introduction" />
 </p>
 
 <p>
