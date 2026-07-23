@@ -88,6 +88,26 @@ Primarily write **TypeScript**, work comfortably across multiple frameworks and 
 
 ---
 
+### Skill Overview
+
+<!-- Custom SVGs generated in `assets/skills/` — edit values in the generator to adjust -->
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center" valign="top">
+      <img width="494" src="./assets/skills/radar.svg" alt="Skill radar chart" />
+    </td>
+    <td align="center" valign="top">
+      <img width="494" src="./assets/skills/proficiency.svg" alt="Skill proficiency bars" />
+    </td>
+  </tr>
+</table>
+
+</div>
+
+---
+
 ### GitHub Stats
 
 <!-- SVG: `.github/workflows/update-github-stats.yml` -->
@@ -108,6 +128,8 @@ Primarily write **TypeScript**, work comfortably across multiple frameworks and 
     </td>
   </tr>
 </table>
+
+<img width="1000" src="https://github-readme-activity-graph.vercel.app/graph?username=psh-suhyun&bg_color=0d1117&color=58a6ff&line=58a6ff&point=79c0ff&area_color=58a6ff&area=true&hide_border=true&custom_title=Contribution%20Activity" alt="Contribution activity graph" />
 
 </div>
 
