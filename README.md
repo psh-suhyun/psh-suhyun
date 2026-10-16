@@ -1,142 +1,62 @@
-<div align="center">
+# Suhyun Park · 박수현
 
-<h1>Suhyun Park</h1>
-<p><b>Full-Stack Developer</b> &nbsp;·&nbsp; TypeScript-first &nbsp;·&nbsp; Building scalable web services</p>
+**Full-stack Developer**
 
-<p>
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&duration=3500&pause=700&color=58A6FF&center=true&vCenter=true&multiline=false&width=520&height=60&lines=Hello%2C+World+%F0%9F%91%8B;TypeScript+%E2%80%A2+Next.Js+%E2%80%A2+Node.js;" alt="Typing introduction" />
-</p>
+### About · 소개
 
-<p>
-  <img src="https://komarev.com/ghpvc/?username=psh-suhyun&style=flat-square&color=4A90D9&label=Profile+Views" />
-  &nbsp;
-  <img src="https://img.shields.io/github/followers/psh-suhyun?style=flat-square&color=4A90D9&labelColor=1a1a2e&label=Followers" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fpsh-suhyun&query=%24.public_repos&label=public%20repos&logo=github&style=flat-square&color=4A90D9&labelColor=1a1a2e" alt="Public repositories count" />
-  &nbsp;
-  <img src="https://img.shields.io/github/last-commit/psh-suhyun/psh-suhyun?style=flat-square&color=4A90D9&labelColor=1a1a2e&logo=github&label=profile%20repo" alt="Last commit to profile README repo" />
-</p>
+TypeScript is my preferred language. I build web apps and APIs with React, Next.js, and Node.js, and set up the infrastructure they run on. I enjoy connecting small pieces of code and ideas into services people can use.
 
-<p>
-  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,vue,nodejs,go,py,rust,docker,git,mysql,redis,spring,figma&perline=8" alt="Skill icons" />
-</p>
-
-</div>
+TypeScript를 가장 선호하며, React와 Next.js, Node.js로 웹과 API를 만들고 인프라도 구축합니다. 작은 코드와 아이디어를 연결해 사람들이 사용할 수 있는 서비스로 만드는 일을 좋아합니다.
 
 ---
 
-### About
+### Tech Stack · 사용 기술
 
-Full-stack developer with hands-on experience across the entire web development lifecycle — from crafting responsive UIs to designing RESTful APIs and managing relational and non-relational databases.
+**Languages · 언어**
 
-Primarily write **TypeScript**, work comfortably across multiple frameworks and runtimes, and care deeply about code maintainability, performance, and developer experience.
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 
----
+**Frontend · 프론트엔드**
 
-### Tech Stack
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 
-**Languages**
+**Libraries & Styling · 라이브러리 및 스타일링**
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) ![React Query](https://img.shields.io/badge/React%20Query-FF4154?style=flat-square&logo=reactquery&logoColor=white) ![React Router](https://img.shields.io/badge/React%20Router-CA4245?style=flat-square&logo=reactrouter&logoColor=white) ![Axios](https://img.shields.io/badge/Axios-5A29E4?style=flat-square&logo=axios&logoColor=white)
 
-**Frontend**
+**Backend · 백엔드**
 
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
-![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vue.js&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white) ![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white) ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
 
-**Frontend / Library & Styling**
+**Databases · 데이터베이스**
 
-![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![React Query](https://img.shields.io/badge/React%20Query-FF4154?style=flat-square&logo=reactquery&logoColor=white)
-![React Router](https://img.shields.io/badge/React%20Router-CA4245?style=flat-square&logo=reactrouter&logoColor=white)
-![Axios](https://img.shields.io/badge/Axios-5A29E4?style=flat-square&logo=axios&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=mariadb&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 
-**Backend**
+**Infrastructure · 인프라**
 
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![Actix Web](https://img.shields.io/badge/Actix%20Web-000000?style=flat-square&logo=rust&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white) ![Naver Cloud](https://img.shields.io/badge/Naver%20Cloud-03C75A?style=flat-square) ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white) ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
 
-**Database**
-
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=mariadb&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-
-**DevOps & Infra**
-
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-
-**Design**
+**Design · 디자인**
 
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
 
-**IDE**
+**Development Tools · 개발 도구**
 
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
-![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=flat-square&logo=intellijidea&logoColor=white)
-
----
-
-### Skill Overview
-
-<!-- Custom SVGs generated in `assets/skills/` — edit values in the generator to adjust -->
-<div align="center">
-
-<table>
-  <tr>
-    <td align="center" valign="top">
-      <img width="494" src="./assets/skills/radar.svg" alt="Skill radar chart" />
-    </td>
-    <td align="center" valign="top">
-      <img width="494" src="./assets/skills/proficiency.svg" alt="Skill proficiency bars" />
-    </td>
-  </tr>
-</table>
-
-</div>
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white) ![Cursor](https://img.shields.io/badge/Cursor-000000?style=flat-square&logo=cursor&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white) ![Claude Code](https://img.shields.io/badge/Claude%20Code-D97757?style=flat-square&logo=claude&logoColor=white) ![Codex](https://img.shields.io/badge/Codex-412991?style=flat-square)
 
 ---
 
-### GitHub Stats
+### GitHub Activity · 개발 활동
 
-<!-- SVG: `.github/workflows/update-github-stats.yml` -->
-<div align="center">
+<p>
+  <img width="49%" src="./assets/github-stats/stats.svg" alt="GitHub statistics · GitHub 활동 통계" />
+  <img width="49%" src="./assets/github-stats/top-langs.svg" alt="Most used languages · 사용 언어 비율" />
+</p>
 
-<table>
-  <tr>
-    <td align="center" valign="top">
-      <img width="494" src="./assets/github-stats/stats.svg" alt="GitHub stats" />
-    </td>
-    <td align="center" valign="top">
-      <img width="494" src="./assets/github-stats/top-langs.svg" alt="Top languages" />
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center">
-      <img width="1000" src="./assets/github-stats/streak.svg" alt="GitHub streak" />
-    </td>
-  </tr>
-</table>
-
-<img width="1000" src="https://github-readme-activity-graph.vercel.app/graph?username=psh-suhyun&bg_color=0d1117&color=58a6ff&line=58a6ff&point=79c0ff&area_color=58a6ff&area=true&hide_border=true&custom_title=Contribution%20Activity" alt="Contribution activity graph" />
-
-</div>
+<img width="100%" src="./assets/github-stats/streak.svg" alt="Contribution streak · 연속 기여 활동" />
 
 ---
 
-### Contact
+### Contact · 연락처
 
-<a href="mailto:23s607h0659@gmail.com">
-  <img src="https://img.shields.io/badge/23s607h0659%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" />
-</a>
+[23s607h0659@gmail.com](mailto:23s607h0659@gmail.com) · [Repositories · 저장소](https://github.com/psh-suhyun?tab=repositories)
